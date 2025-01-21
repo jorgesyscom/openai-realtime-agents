@@ -1,12 +1,12 @@
 import { AllAgentConfigsType } from "@/app/types";
-import frontDeskAuthentication from "./frontDeskAuthentication";
 import customerServiceRetail from "./customerServiceRetail";
-import simpleExample from "./simpleExample";
+
+import syscom from "./syscom";
 
 export const allAgentSets: AllAgentConfigsType = {
-  frontDeskAuthentication,
+  syscom,
   customerServiceRetail,
-  simpleExample,
+
 };
 
-export const defaultAgentSetKey = "simpleExample";
+export const defaultAgentSetKey = "syscom";
